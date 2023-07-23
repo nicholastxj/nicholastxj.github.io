@@ -1,0 +1,17 @@
+.Todo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: #8758ff;
+    color: #fff;
+    padding: 0.75rem 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+  }
+
+  .completed {
+    color: #c5aeff;
+    text-decoration: line-through;
+  }

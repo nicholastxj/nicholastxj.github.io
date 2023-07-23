@@ -1,0 +1,13 @@
+.dash-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-top: 1vh;
+}
+
+@media screen and (max-width: 960px) {
+  .dash-main {
+    justify-content: flex-start;
+    margin-top: 2rem;
+  }
+}

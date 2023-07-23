@@ -1,0 +1,51 @@
+.TodoForm {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .todo-input {
+    outline: none;
+    background: none;
+    border: 1px solid #8758ff;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 300px;
+    color: #fff;
+  }
+
+  .todo-input-textarea {
+    outline: none;
+    background: none;
+    border: 1px solid #8758ff;
+    padding: 0.5rem 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    width: 300px;
+    height: 100px;
+    color: #fff;
+    resize: none;
+  }
+  
+  .date-input {
+    margin: 10px;
+  }
+
+  .buttons-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .todo-btn {
+    background: #8758ff;
+    color: #fff;
+    border: none;
+    padding: 0.55rem;
+    cursor: pointer;
+  } 
